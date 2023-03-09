@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - csie 選課表</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+  <!-- <link rel="stylesheet" href = "styles.css">
+-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+   <link rel = "stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    </head>
+  <body>
+    <h1>選課表</h1>
+    <table id = "csie" class="table table-striped table-hover">
+      <tr>
+        <th>開課單位</th>
+        <th>課程名稱</th>
+        <th>課程教師</th>
+       </tr>
+       <tr>
+        <td>資工系</td>
+        <td>物件程式設計</td>
+         <td>teacher</td>
+       </tr>
+       <td>資工系</td>
+        <td>物件程式設計</td>
+         <td>teacher</td>
+       </tr>
+     <td>資工系</td>
+        <td>物件程式設計</td>
+         <td>teacher</td>
+       </tr>
+   <td>資工系</td>
+        <td>物件程式設計</td>
+         <td>teacher</td>
+       </tr>
+ <td>資工系</td>
+        <td>物件程式設計</td>
+         <td>teacher</td>
+       </tr>
+</table>  
+<button onclick= "changeResult()">Change</buttom>
+<script>
+  function changeResult(){
+    var myTable = document.getElementById("csie");
+    myTable.rows[1].cells[2].innerHTML = "李";
+  }
+</script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
