@@ -1,0 +1,13 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Climate Crisis', cursive;
+}
+p,a,input,label,textarea,span ul,li{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#intro .jumbotron{
+    height:70vh;
+}
+header nav img{
+    width: 60px;
+}
